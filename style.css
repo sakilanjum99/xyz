@@ -1,0 +1,76 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.orange-color{
+    color: orange;
+}
+section{
+    margin-bottom: 150px;
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px
+}
+.align-center {
+    text-align: center;
+}
+.top-banner{
+    display: flex;
+}
+.my-mission{
+      display: flex;
+      justify-content: space-between;
+}
+.mission{
+      width: 30%;
+      height: 700px;
+      background: #ced4b446;
+}
+.vission{
+    width: 30%;
+    height: 700px;
+    background: rgb(201, 182, 195);
+}
+.goals{
+    width: 30%;
+    height: 700px;
+    background: rgba(241, 216, 168, 0.973);
+}
+.experiance-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#web-developer-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+#baby-experiance{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
